@@ -13,3 +13,8 @@ body {
   background-color: #3f3f3f;
 }
 
+.search-location-input{
+  position: flex;
+  border: 2px solid black;
+}
+
