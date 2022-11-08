@@ -14,7 +14,14 @@ body {
 }
 
 .search-location-input{
-  position: flex;
-  border: 2px solid black;
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  color: black;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
 }
 

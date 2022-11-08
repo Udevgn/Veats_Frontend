@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import HeaderCartButton from './HeaderCartButton';
 import mealsImage from '../../assets/meals.jpg';
 import classes from './Header.module.css';
-import SearchLocationInput from '../../SearchLocationInput.js';
+import SearchLocationInput from './SearchLocationInput.js';
 
 const Header = (props) => {
   return (
