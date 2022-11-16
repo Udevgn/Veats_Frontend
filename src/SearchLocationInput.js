@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import {MAPS_SECRET} from "secrets.js"
 
 let autoComplete;
 
@@ -45,7 +46,7 @@ function SearchLocationInput() {
 
   useEffect(() => {
     loadScript(
-      `https://maps.googleapis.com/maps/api/js?key=AIzaSyDpegMF7QbIQHrxLvztpzP9flEiloxIn7g&libraries=places`,
+      `https://maps.googleapis.com/maps/api/js?key=MAPS_SECRET()&libraries=places`,
       () => handleScriptLoad(setQuery, autoCompleteRef)
     );
   }, []);

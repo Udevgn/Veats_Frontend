@@ -13,6 +13,10 @@ body {
   background-color: #3f3f3f;
 }
 
+::placeholder{
+  color:black;
+}
+
 .search-location-input{
   cursor: pointer;
   font: inherit;
@@ -23,5 +27,7 @@ body {
   justify-content: space-around;
   align-items: center;
   border-radius: 25px;
+  border-color: red;
+  background: rgba(246, 146, 129, 0.8);
 }
 
